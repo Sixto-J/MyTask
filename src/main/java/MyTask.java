@@ -9,7 +9,33 @@ public class MyTask {
 
     public static void main(String[] args) {
 
-        MyView myview1 = new MyView();
+
+        // Create and display the JFrame
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+
+                MyView myview1 = new MyView();
+                myview1.setVisible(true);
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         /*myview1.getP1()
         ControlPanel c1 = new ControlPanel();
