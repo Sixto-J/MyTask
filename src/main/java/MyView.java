@@ -60,7 +60,7 @@ public class MyView extends JFrame implements Runnable{
                 @Override
                 public void run() {
                     // Your thread's code goes here
-                    for (int i = 0; i < 10; i++) {
+                    for (int i = 0; i < 1000; i++) {
                         valor = valor + 1;
                         System.out.println("Thread running y valor vale: " + valor);
                         try {
@@ -77,7 +77,7 @@ public class MyView extends JFrame implements Runnable{
                     @Override
                     public void run() {
                         // Your thread's code goes here
-                        for (int i = 10; i > 0; i--) {
+                        for (int i = 1000; i > 0; i--) {
                             valor = valor - 1;
                             System.out.println("Thread 2 running y valor vale: " + valor);
                             try {
